@@ -1,5 +1,7 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import Image from "next/image";
+import myImage from "../public/src/images/pic.png";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -48,7 +50,9 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-          <div></div>
+          <div className="relative mx-auto rounded-full w-80 h-80 mt-20 ">
+            <Image src={myImage} layout />
+          </div>
         </section>
 
         <section>
@@ -66,15 +70,15 @@ export default function Home() {
               className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
             >
               <h3 className="text-3xl py-1 ">My Projects</h3>
-              <h4 className="text-1xl py-1 ">Animl</h4>
+              <h4 className="text-2xl py-1 ">Animl</h4>
               https://github.com/AlastairHafield/Animl-Project
-              <h4 className="text-1xl py-1 ">Book Nook</h4>
+              <h4 className="text-2xl py-1 ">Book Nook</h4>
               https://github.com/indiataylor1/book-nook
-              <h4 className="text-1xl py-1 ">Tech Blog</h4>
+              <h4 className="text-2xl py-1 ">Tech Blog</h4>
               https://github.com/josephcotterell/Tech-Blog
-              <h4 className="text-1xl py-1 ">Team Profile Generator</h4>
+              <h4 className="text-2xl py-1 ">Team Profile Generator</h4>
               https://github.com/josephcotterell/Team-Profile-Gen
-              <h4 className="text-1xl py-1 ">Social Network</h4>
+              <h4 className="text-2xl py-1 ">Social Network</h4>
               https://github.com/josephcotterell/Social-Network-API
             </div>
           </div>
