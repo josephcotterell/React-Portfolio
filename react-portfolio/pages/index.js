@@ -5,6 +5,7 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
+
 export default function Home() {
   return (
     <div>
@@ -36,15 +37,46 @@ export default function Home() {
               {" "}
               Joseph Cotterell
             </h2>
-            <h3 className="text-2xl py-2"> Conding Student</h3>
+            <h3 className="text-2xl py-2"> Coding Student</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
-              Hi, my name is Joseph and I am a coding student from Birmingham
+              Hi, my name is Joseph and I am a coding student from Birmingham.
+              This is my portfolio where you will find a number of my projects.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16">
             <AiFillTwitterCircle />
             <AiFillLinkedin />
             <AiFillYoutube />
+          </div>
+          <div></div>
+        </section>
+
+        <section>
+          <div className="text-center p-10">
+            <h3 className="text-3xl py-1">My Coding Experience</h3>
+            <p className="text-md py-1 leading-8 text-gray-800">
+              I have been studying coding since October 2022 at Birmingham Uni.
+              I am nearing the end of the course and have learnt various
+              languages such as: HTML, CSS, JavaScript, MySQL, React etc.
+            </p>
+          </div>
+          <div>
+            <div
+              div
+              className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
+            >
+              <h3 className="text-3xl py-1 ">My Projects</h3>
+              <h4 className="text-1xl py-1 ">Animl</h4>
+              https://github.com/AlastairHafield/Animl-Project
+              <h4 className="text-1xl py-1 ">Book Nook</h4>
+              https://github.com/indiataylor1/book-nook
+              <h4 className="text-1xl py-1 ">Tech Blog</h4>
+              https://github.com/josephcotterell/Tech-Blog
+              <h4 className="text-1xl py-1 ">Team Profile Generator</h4>
+              https://github.com/josephcotterell/Team-Profile-Gen
+              <h4 className="text-1xl py-1 ">Social Network</h4>
+              https://github.com/josephcotterell/Social-Network-API
+            </div>
           </div>
         </section>
       </main>
