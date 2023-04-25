@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![screenshot of my portfolio](../react-portfolio/public/src/images/screenshot.png)
+![screenshot of my portfolio](./public/src/images/screenshot.png)
 
 ## Description:
 
