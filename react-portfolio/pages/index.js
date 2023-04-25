@@ -11,6 +11,7 @@ import pass from "../public/src/images/pass-gen.png";
 import Link from "next/link";
 import {
   AiFillTwitterCircle,
+  AiFillGithub,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
@@ -36,7 +37,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-cyan-500 bg-cyan-500 text-white px-4 py-2 rounded-md ml-8"
                   href="#"
                 >
-                  Resume
+                  Portfolio
                 </a>
               </li>
             </ul>
@@ -53,9 +54,18 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+            <a href="https://twitter.com/JosephCott1530">
+              {" "}
+              <AiFillTwitterCircle />{" "}
+            </a>
+            <a href="https://www.linkedin.com/in/joseph-cotterell-3b1562254/">
+              {" "}
+              <AiFillLinkedin />
+            </a>
+            <a href="https://github.com/josephcotterell">
+              {" "}
+              <AiFillGithub />{" "}
+            </a>
           </div>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 ">
             <Image src={myImage} layout />
@@ -76,7 +86,7 @@ export default function Home() {
               div
               className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
             >
-              <h3 className="text-2xl py-1 ">My Projects</h3>
+              <h3 className="text-2xl py-1 ">My Portfolio</h3>
               <h4 className="text-2xl py-1 mt-20 ">Animl</h4>
               <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
                 <Link href=" https://github.com/AlastairHafield/Animl-Project">
