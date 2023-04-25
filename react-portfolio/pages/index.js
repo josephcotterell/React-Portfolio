@@ -7,6 +7,8 @@ import book from "../public/src/images/book.png";
 import weather from "../public/src/images/weather.png";
 import team from "../public/src/images/team.png";
 import note from "../public/src/images/note.png";
+import pass from "../public/src/images/pass-gen.png";
+import Link from "next/link";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -62,7 +64,7 @@ export default function Home() {
 
         <section>
           <div className="text-center p-10">
-            <h3 className="text-3xl py-1">My Coding Experience</h3>
+            <h3 className="text-3xl py-1">About Me</h3>
             <p className="text-md py-1 leading-8 text-gray-800">
               I have been studying coding since October 2022 at Birmingham Uni.
               I am nearing the end of the course and have learnt various
@@ -74,31 +76,55 @@ export default function Home() {
               div
               className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"
             >
-              <h3 className="text-3xl py-1 ">My Projects</h3>
+              <h3 className="text-2xl py-1 ">My Projects</h3>
               <h4 className="text-2xl py-1 mt-20 ">Animl</h4>
               <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-                https://github.com/AlastairHafield/Animl-Project
+                <Link href=" https://github.com/AlastairHafield/Animl-Project">
+                  https://github.com/AlastairHafield/Animl-Project
+                </Link>
                 <Image src={animal} />
+              </div>
+
+              <h4 className="text-2xl py-1 mt-20 ">Password Generator</h4>
+              <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
+                <Link href="https://github.com/josephcotterell/password-generator">
+                  https://github.com/josephcotterell/password-generator
+                </Link>
+                <Image src={pass} />
               </div>
               <h4 className="text-2xl py-1 mt-20 ">Book Nook</h4>
               <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-                https://github.com/indiataylor1/book-nook
+                <Link href="https://github.com/indiataylor1/book-nook">
+                  https://github.com/indiataylor1/book-nook
+                </Link>
                 <Image src={book} />
               </div>
               <h4 className="text-2xl py-1 mt-20 ">Weather App</h4>
               <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-                https://github.com/josephcotterell/Weather-Dashboard
+                <Link href="  https://github.com/josephcotterell/Weather-Dashboard">
+                  https://github.com/josephcotterell/Weather-Dashboard
+                </Link>
                 <Image src={weather} />
               </div>
               <h4 className="text-2xl py-1 mt-20 ">Team Profile Generator</h4>
               <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-                https://github.com/josephcotterell/Team-Profile-Gen
+                <Link href="https://github.com/josephcotterell/Team-Profile-Gen">
+                  {" "}
+                  https://github.com/josephcotterell/Team-Profile-Gen{" "}
+                </Link>
                 <Image src={team} />
               </div>
               <h4 className="text-2xl py-1 mt-20 ">Note Taker</h4>
               <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-                https://github.com/josephcotterell/Note-Taker
+                <Link href="https://github.com/josephcotterell/Note-Taker">
+                  https://github.com/josephcotterell/Note-Taker
+                </Link>
                 <Image src={note} />
+              </div>
+
+              <div>
+                <h3>Contact</h3>
+                <h4>Email: josephcotterell@hotmail.co.uk</h4>
               </div>
             </div>
           </div>
