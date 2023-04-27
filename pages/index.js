@@ -13,7 +13,6 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiFillLinkedin,
-  AiFillYoutube,
 } from "react-icons/ai";
 
 export default function Home() {
