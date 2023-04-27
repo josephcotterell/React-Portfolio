@@ -2,6 +2,8 @@
 
 ## Deployed Link:
 
+https://react-portfolio-8ekz-30tw0k3nf-josephcotterell.vercel.app/
+
 ## Screenshot
 
 ![screenshot of my portfolio](./public/src/images/screenshot.png)
